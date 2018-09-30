@@ -1,4 +1,4 @@
-<script type="text/javascript" >
+
 function startTime(){
 	
 	var today = new Date();
@@ -9,7 +9,7 @@ function startTime(){
 	min = checkTime(min);
 	sec = checkTime(sec);
 
-	document.getElementById('txt').innterHTML = 
+	document.getElementById("clock").innterHTML = 
 	hr + ":" + min + ":" + sec;
 
 	var time = sectTimeout(startTime, 500);
@@ -21,4 +21,3 @@ function checkTime(){
 if(i < 10) {i = "0" + 1};
 return i;
 }
-</script>
