@@ -13,13 +13,11 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
-
+    <script src="https://js.cx/libs/animate.js"></script>
     <script type="text/javascript" src="/js/clock.js"></script>
   </head>
 
-<body background="http://www.finntech.ie/index/wp-content/uploads/2015/03/background-for-main-content.jpg" onload="myFunction()">
-<script src="js/name.js"></script>
-
+<body background="http://www.finntech.ie/index/wp-content/uploads/2015/03/background-for-main-content.jpg">
 
 
 <nav class="navbar navbar-expand-lg navbar-dark primary-color">
@@ -48,10 +46,22 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
+<!-- Default input -->
+
+<a class="text-warning">Enter Your Name: </a><input style="background-color: black" class="text-success" type="text" id="userid" value="">
+
+<button onclick="start()" class="btn btn-default" class="form-control">Try it</button>
+
+<div class="form-group purple-border">
+
+  <textarea style="background-color: black" class="form-control text-success" id="userinput" rows="5px" cols="40px" readonly>
+  </textarea>
+<div>
+<script src="js/name.js"></script>
 <h1>Hello World</h1>
 <p>this is hosted</p>
 <div id="txt"></div>
-
+<p id="text"></p>
 <img src="https://media0.giphy.com/media/5eFkI3L0xn5BkN7g2Z/giphy.gif"
      alt="its a mushroom">
 
