@@ -204,6 +204,15 @@
 .purple-text {
   color: #9c27b0 !important; }
 
+.purple-border textarea {
+    border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+    border: 1px solid #ba68c8;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+
 .rgba-purple-slight,
 .rgba-purple-slight:after {
   background-color: rgba(156, 39, 176, 0.1); }
