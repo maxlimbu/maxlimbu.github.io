@@ -1,10 +1,10 @@
 //name input of user
 function myFunction() {
     var n = document.getElementById("userid").value; 
-    document.getElementById("userinput").innerHTML = "[1] print(user)" + "\n" 
-    + "........................................................................" 
-    + "\n" + "     Hello " + n + ", Welcome to my Website!!!" + "\n" 
-    + "........................................................................";
+    document.getElementById("userinput").innerHTML = "[1] > print(user)" + "\n" 
+    + "> ........................................................................" 
+    + "\n" + ">      Hello " + n + ", Welcome to my Website!!!" + "\n" 
+    + "> ........................................................................";
 
     
 }
