@@ -5,7 +5,6 @@ function myFunction() {
     + "> ........................................................................" 
     + "\n" + ">      Hello " + n + ", Welcome to my Website!!!" + "\n" 
     + "> ........................................................................";
-
     
 }
     
@@ -34,12 +33,14 @@ function animateText(textArea) {
       }
     }
 
-
+function enableButton() {
+  document.getElementById("enableB").disabled = false;
+}
 //Start the function
 
 function start(){
 myFunction();
-animateText(userinput);
+animateText(userinput);  
 }
 
 
