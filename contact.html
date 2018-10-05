@@ -40,34 +40,110 @@
     </div>
 </nav>
 
-<h1>Hello World</h1>
-<p>this is hosted</p>
 
 
+<!--Section: Contact v.2-->
+<section class="section">
 
-<!--  Default form contact -->
-<!-- <form action = "mailto:mlimbu30@outlook.com" method= "POST" name= "Email Form" class="text-center border border-light p-5"> -->
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        matter of hours to help you.</p>
 
-    <!-- <p class="h4 mb-4">Contact me</p> -->
+    <div class="row">
 
-    <!-- Name -->
-    <!-- <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name"> -->
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form class ="w-70 p-3 " id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-    <!-- Email -->
-    <!-- <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail"> -->
-<!--  -->
-    <!-- Subject -->
-    <!-- <input type="text" id="defaultContactFormSubject" class="form-control mb-4" placeholder="Subject"> -->
-    <!-- Message -->
-    <!-- <div class="form-group"> -->
-        <!-- <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea> -->
-    <!-- </div> -->
+                <!--Grid row-->
+                <div class="row">
 
-    <!-- Send button -->
-    <!-- <input type="submit" value="Send"> -->
-<!-- </form> --> 
-<!-- Default form contact -->
-<img border="0" alt="github" src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" width="65" height="35">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="validateForm()">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>United Kingdom</p>
+                </li>
+
+                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                    <p>+ s</p>
+                </li>
+
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p>maxlimbu@msn.com</p>
+                </li>
+                
+                <li>
+                   <img border="0" alt="github" src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" width="65" height="35"> 
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+<script type="text/javascript" src="js/validateForm.js"></script>
 
 
 <footer class="page-footer font-small primary-color">
