@@ -39,6 +39,7 @@ function enableButton() {
 //Start the function
 
 function start(){
+	
 myFunction();
 animateText(userinput);  
 }
